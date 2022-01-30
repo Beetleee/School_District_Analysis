@@ -10,7 +10,7 @@ The purpose of this analysis is to view the difference in the data analysis afte
 
 ![](https://github.com/Beetleee/School_District_Analysis/main/resources/D1Step1.png)
 
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/D1Step2_3.png)
+!(https://github.com/Beetleee/School_District_Analysis/blob/main/resources/D1Step2_3.png)
 
 **Step2:** Student count
 	-Number of Students in 9th Grade at THS:  **461**
