@@ -14,60 +14,74 @@ The purpose of this analysis is to view the difference in the data analysis afte
 
 **Step2:** Student count
 	-Number of Students in 9th Grade at THS:  **461**
+	
 	-Total Student Count: **39,170**
+	
 	-Remaining Number of Students after Removing 9th Grade at THS: **38,709**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/specifics_on_9thTHS.png)
 
 
 **Step3:** Math and Reading Percentages of New Student Count:
+
 	-Math passing percentages on New Student Count: **74.76%**
+	
 	-Reading passing percentages on New Student Count: **85.66%**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/percentages_on_new.png)
 
 **Step4:** Overall Passing Percentage of New Student Count:
+
 	-Overall Passing Percentage: **64.86%**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/overall.png)
 
 **Step5:** Number of 10th – 12th grade students
+
 	-10th – 12th grade students: 1,174 
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/total10_12atTHS.png)
 
 **Step6& 7:** Use .loc to create a df that has all students passing math and reading (separate) from THS
+
 	-Students (10th-12th from THS) passing math: 1,094
+	
 	-Students (10th-12th from THS) passing reading: 1,139
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/10_12atTHS_passing.png)	
 
 **Step8&9:** Use .loc to create a df with all students passing both math and reading from THS
+
 	-Students (10th-12th from THS) passing both math and reading: 1,064
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/10_12atTHS_passingloc.png)
 
 **Step10:** Calculate the percentage of 10th-12th graders passing reading from THS
+
 	-% Students (10th-12th at THS) passing reading percentage: **97.02%**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/step10.png)
 
 **Step11** Calculate the overall passing percentage of 10th-12th graders from THS
+
 	-% Students (10th-12th at THS) overall passing percentage: **90.63%**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/step11.png)
 
 **Step12** Use .loc to replace %passing math score for THS with new % calculated from Step 9
+
 	-% Students (10th-12th at THS) NEW math passing percentage: **93.19%** (no change)
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/step12.png)
 
 **Step13:** Use .loc to replace %passing reading score for THS with new % calculated from Step 9
+
 	-% Students (10th-12th at THS) NEW reading passing percentage: **97.02%** (no change)
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/10_12atTHS_passing%reading.png)
 
 **Step14:** Use .loc to replace %overall passing score for THS with new % calculated from Step 9
+
 	-% Students (10th-12th at THS) overall passing percentage: **90.63%**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/10_12atTHS_passing%overall.png)
@@ -80,10 +94,13 @@ The purpose of this analysis is to view the difference in the data analysis afte
 ## Results/Deliverable 2:
 
 ### How is the district summary affected?
--Removing ~500 9th grade scores from THS, gave a <1% difference.   
+
+-Removing ~500 9th grade scores from THS, gave a <1% difference.  
+
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/districtsummary.png)
 
 ### How is the school summary affected?
+
 -THS had a 91% overall passing rate (which was concerningly high)..  After completing the 10th-12th grade student score analysis only, the testing was adjusted.
 
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/adjusted.png)	
