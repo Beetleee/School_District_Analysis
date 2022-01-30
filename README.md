@@ -79,12 +79,13 @@ The purpose of this analysis is to view the difference in the data analysis afte
 ## Results/Deliverable 2:
 
 ### How is the district summary affected?
-	Removing ~500 9th grade scores from THS, gave a <1% difference.   
+-Removing ~500 9th grade scores from THS, gave a <1% difference.   
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/districtsummary.png)
 
 ### How is the school summary affected?
-	THS had a 91% overall passing rate (which was concerningly high)..  After completing the 10th-12th grade student score analysis only, the testing was adjusted.
-	
+-THS had a 91% overall passing rate (which was concerningly high)..  After completing the 10th-12th grade student score analysis only, the testing was adjusted.
+
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/adjusted.png)	
 **Results indicate that removing the 9th grade data had a big impact, by dropping the overall passing rate by 25%
 
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/bins.png)
