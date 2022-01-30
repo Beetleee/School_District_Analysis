@@ -24,17 +24,17 @@ The purpose of this analysis is to view the difference in the data analysis afte
 	-Math passing percentages on New Student Count: **74.76%**
 	-Reading passing percentages on New Student Count: **85.66%**
 	
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/percentages_on_new.png)
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/percentages_on_new.png)
 
 **Step4:** Overall Passing Percentage of New Student Count:
 	-Overall Passing Percentage: **64.86%**
 	
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/overall.png)
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/overall.png)
 
 **Step5:** Number of 10th – 12th grade students
 	-10th – 12th grade students: 1,174 
 	
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/total10_12atTHS.png)
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/total10_12atTHS.png)
 
 **Step6& 7:** Use .loc to create a df that has all students passing math and reading (separate) from THS
 	-Students (10th-12th from THS) passing math: 1,094
@@ -70,7 +70,7 @@ The purpose of this analysis is to view the difference in the data analysis afte
 **Step14:** Use .loc to replace %overall passing score for THS with new % calculated from Step 9
 	-% Students (10th-12th at THS) overall passing percentage: **90.63%**
 	
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/10_12atTHS_passing%overall.png)
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/10_12atTHS_passing%overall.png)
 
 ***Also provided in code output are several lists of deliverables:
 -The Top and Bottom 5 schools (based on passing rate)
@@ -81,45 +81,45 @@ The purpose of this analysis is to view the difference in the data analysis afte
 
 ### How is the district summary affected?
 -Removing ~500 9th grade scores from THS, gave a <1% difference.   
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/districtsummary.png)
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/districtsummary.png)
 
 ### How is the school summary affected?
 -THS had a 91% overall passing rate (which was concerningly high)..  After completing the 10th-12th grade student score analysis only, the testing was adjusted.
 
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/adjusted.png)	
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/adjusted.png)	
 **Results indicate that removing the 9th grade data had a big impact, by dropping the overall passing rate by 25%
 
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/bins.png)
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/bins.png)
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
 -THS was #2 ranked in the top schools in the original analysis, but dropped to the middle of the pack after the new analysis 
 
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/location.png)
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/location.png)
 
 ### How does replacing the ninth-grade scores affect the following:
 
 -In the original analysis, Thomas High School had 83.6 math average and 83.7 reading average for the 9th grade tests. Now the scores have been replaced with null values and new analysis is in the following charts:
 
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/location.png)
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/location.png)
 
 #### Scores by school spending:
 
 Thomas High School is in the $630-$644/student spending range. 
 
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/spending.png)
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/spending.png)
 
 #### Scores by school size:
 
 Thomas High School is defined as a medium sized school.
 
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/size.png)
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/size.png)
 
 #### Scores by school type:
 
 There was very little impact by school type by changing the 9th grade scores. Thomas High School is a Charter type.
 
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/final.png)
+![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/final.png)
 
 ## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs. 
 
