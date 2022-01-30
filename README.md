@@ -1,10 +1,11 @@
-#School District Analysis (25 points)
-##by Terra Lasho
+# Module 3  School District Analysis
+### by Terra Lasho 
 ##Overview of the school district analysis: 
 I am tasked to provide analysis on district reading and math grades for a school board.  There has been some evidence of nefarious activity with grades specifically in ninth grade at Thomas High School.  For this project, I need to first replace these grades with “NaN” (removing them from the data), and then perform district analysis on the other data.  In the end, we will compare the two datasets to see what is different. 
+
 Explain the purpose of this analysis.
 The purpose of this analysis is to view the difference in the data analysis after removal of a specific dataset.
-##Deliverable 1/Code Setup and Specifics:
+## Deliverable 1/Code Setup and Specifics:
 **Step1:** I first did a query (using .loc) to grab all 9th grade specific grades from Thomas High School (THS), and then replaced the 9th Grade THS scores with NaN (using .loc) and viewed the data
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/D1Step1.png)
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/D1Step2_3.png)
@@ -50,9 +51,9 @@ The purpose of this analysis is to view the difference in the data analysis afte
 -Average math and reading score for each grade level from each school
 -Scores by school spending per student, by school size, and by school type
 
-##Results/Deliverable 2:
-: Using bulleted lists and images of DataFrames as support, address the following questions.
-###How is the district summary affected?
+## Results/Deliverable 2:
+
+### How is the district summary affected?
 	Removing ~500 9th grade scores from THS, gave a <1% difference.   
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/districtsummary.png)
 
@@ -64,33 +65,33 @@ The purpose of this analysis is to view the difference in the data analysis afte
 
 
 
-###How is the school summary affected?
+### How is the school summary affected?
 	THS had a 91% overall passing rate (which was concerningly high)..  After completing the 10th-12th grade student score analysis only, the testing was adjusted.
 **Results indicate that removing the 9th grade data had a big impact, by dropping the overall passing rate by 25%
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/bins.png)
-###How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
 -THS was #2 ranked in the top schools in the original analysis, but dropped to the middle of the pack after the new analysis 
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/location.png)
 
-###How does replacing the ninth-grade scores affect the following:
+### How does replacing the ninth-grade scores affect the following:
 In the original analysis, Thomas High School had 83.6 math average and 83.7 reading average for the 9th grade tests. Now the scores have been replaced with null values and new analysis is in the following charts:
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/location.png)
 
-####Scores by school spending:
+#### Scores by school spending:
 Thomas High School is in the $630-$644/student spending range. 
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/spending.png)
 
-####Scores by school size:
+#### Scores by school size:
 Thomas High School is defined as a medium sized school.
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/size.png)
 
-####Scores by school type:
+#### Scores by school type:
 There was very little impact by school type by changing the 9th grade scores. Thomas High School is a Charter type.
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/final.png)
 
-##Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs. 
+## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs. 
 -The overall passing rate for Thomas High School was affected by removing 9th grade data from 91% to 65%.
 -Thomas High School's ranking dropped from 2nd to 8th in the district, out of a total of 15 campuses.
-- "NaN" is now in reports for the 9th grade students at Thomas High School
+-"NaN" is now in reports for the 9th grade students at Thomas High School
 -Thomas High School’s math and reading averages and passing percentages all saw shifts.
