@@ -8,7 +8,7 @@ The purpose of this analysis is to view the difference in the data analysis afte
 ## Deliverable 1/Code Setup and Specifics:
 **Step1:** I first did a query (using .loc) to grab all 9th grade specific grades from Thomas High School (THS), and then replaced the 9th Grade THS scores with NaN (using .loc) and viewed the data
 
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/D1Step1.png)
+![](https://github.com/Beetleee/School_District_Analysis/main/resources/D1Step1.png)
 
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/resources/D1Step2_3.png)
 
