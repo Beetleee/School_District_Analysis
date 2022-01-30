@@ -14,7 +14,9 @@ The purpose of this analysis is to view the difference in the data analysis afte
 
 **Step2:** Student count
 -Number of Students in 9th Grade at THS:  **461**
+
 -Total Student Count: **39,170**
+
 -Remaining Number of Students after Removing 9th Grade at THS: **38,709**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/specifics_on_9thTHS.png)
@@ -23,6 +25,7 @@ The purpose of this analysis is to view the difference in the data analysis afte
 **Step3:** Math and Reading Percentages of New Student Count:
 
 -Math passing percentages on New Student Count: **74.76%**
+
 -Reading passing percentages on New Student Count: **85.66%**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/percentages_on_new.png)
@@ -42,6 +45,7 @@ The purpose of this analysis is to view the difference in the data analysis afte
 **Step6& 7:** Use .loc to create a df that has all students passing math and reading (separate) from THS
 
 -Students (10th-12th from THS) passing math: **1,094**
+
 -Students (10th-12th from THS) passing reading: **1,139**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/10_12atTHS_passing.png)	
@@ -110,11 +114,7 @@ The purpose of this analysis is to view the difference in the data analysis afte
 
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/location.png)
 
-### How does replacing the ninth-grade scores affect the following:
-
 -In the original analysis, Thomas High School had 83.6 math average and 83.7 reading average for the 9th grade tests. Now the scores have been replaced with null values and new analysis is in the following charts:
-
-![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/location.png)
 
 #### Scores by school spending:
 
