@@ -13,11 +13,9 @@ The purpose of this analysis is to view the difference in the data analysis afte
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/D1Step2_3.png)
 
 **Step2:** Student count
-	-Number of Students in 9th Grade at THS:  **461**
-	
-	-Total Student Count: **39,170**
-	
-	-Remaining Number of Students after Removing 9th Grade at THS: **38,709**
+-Number of Students in 9th Grade at THS:  **461**
+-Total Student Count: **39,170**
+-Remaining Number of Students after Removing 9th Grade at THS: **38,709**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/specifics_on_9thTHS.png)
 
@@ -25,7 +23,6 @@ The purpose of this analysis is to view the difference in the data analysis afte
 **Step3:** Math and Reading Percentages of New Student Count:
 
 -Math passing percentages on New Student Count: **74.76%**
-	
 -Reading passing percentages on New Student Count: **85.66%**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/percentages_on_new.png)
@@ -45,7 +42,6 @@ The purpose of this analysis is to view the difference in the data analysis afte
 **Step6& 7:** Use .loc to create a df that has all students passing math and reading (separate) from THS
 
 -Students (10th-12th from THS) passing math: **1,094**
-	
 -Students (10th-12th from THS) passing reading: **1,139**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/10_12atTHS_passing.png)	
@@ -62,13 +58,13 @@ The purpose of this analysis is to view the difference in the data analysis afte
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/step10.png)
 
-**Step11** Calculate the overall passing percentage of 10th-12th graders from THS
+**Step11:** Calculate the overall passing percentage of 10th-12th graders from THS
 
 -% Students (10th-12th at THS) overall passing percentage: **90.63%**
 	
 ![](https://github.com/Beetleee/School_District_Analysis/blob/main/Resources/step11.png)
 
-**Step12** Use .loc to replace %passing math score for THS with new % calculated from Step 9
+**Step12:** Use .loc to replace %passing math score for THS with new % calculated from Step 9
 
 -% Students (10th-12th at THS) NEW math passing percentage: **93.19%** (no change)
 	
